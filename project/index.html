@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Project</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header_container">
+
+      <div class="header_logo">
+        <img src="../icons/logo.png" alt="logo">
+        <span>Лого</span>
+      </div>
+
+      <nav class="header-nav">
+        <a class="header-link" href="#advantage">Преимущества</a>
+        <a class="header-link" href="#about">О нас</a>
+        <a class="header-link" href="#reviews">Отзывы</a>
+        <a class="header-link" href="#tariffs">Тарифы</a>
+      </nav>
+
+      <a class="header_button" href="#tariffs">Оформить</a>
+
+    </div>
+  </header>
+  <section class="sect1" id="about">
+    <div class="sect1_container">
+      <h1>Подписка, которая упрощает обучение</h1>
+      <p>Тарифы для новичков и тех, кто хочет быстрее расти.</p>
+      <a class="class1_button" href="#tariffs">Смотреть тарифы</a>
+    </div>
+  </section>
+  <section class="advantage" id="advantage">
+    <div class="section_container">
+      <h2 class="section_title">Наши преимущества</h2>
+
+      <div class="advantage_grid">
+        <div class="advantage_card">
+          <img src="../icons/rocket.png" alt="Rocket">
+          <h3>Быстрый старт</h3>
+          <p>Начни за считанные минуты</p>
+        </div>
+
+        <div class="advantage_card">
+          <img src="../icons/book.png" alt="Book">
+          <h3>Понятные уроки</h3>
+          <p>Все просто объяснено</p>
+        </div>
+
+        <div class="advantage_card">
+          <img src="../icons/customer-support.png" alt="Support">
+          <h3>Поддержка</h3>
+          <p>Помощь на каждом этапе</p>
+        </div>
+
+        <div class="advantage_card">
+          <img src="../icons/business-goal.png" alt="Target">
+          <h3>Прогресс и мотивация</h3>
+          <p>Следи за своими успехами</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="how" id="reviews">
+    <div class="section_container">
+      <h2 class="section_title">Как это работает</h2>
+
+      <div class="how_grid">
+        <div class="how_card">
+          <div class="how_number">1</div>
+          <h3>Выбери тариф</h3>
+          <p>Определи свой план</p>
+          <img src="../icons/website.png" alt="Click">
+        </div>
+
+        <div class="how_card">
+          <div class="how_number">2</div>
+          <h3>Получи доступ</h3>
+          <p>Открой все материалы</p>
+          <img src="../icons/key.png" alt="Key">
+        </div>
+
+        <div class="how_card">
+          <div class="how_number">3</div>
+          <h3>Учись по плану</h3>
+          <p>Следуй своему расписанию</p>
+          <img src="../icons/checked.png" alt="Check">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="trust">
+    <div class="section_container">
+      <h2 class="section_title">Нам доверяют</h2>
+
+      <div class="trust_cards">
+        <div class="trust_card">
+          <img src="../icons/rating.png" alt="rating">
+          <strong>4,9 / 5</strong>
+          <p>Рейтинг</p>
+        </div>
+
+        <div class="trust_card">
+          <img src="../icons/website.png" alt="users">
+          <strong>500+</strong>
+          <p>Пользователей</p>
+        </div>
+
+        <div class="trust_card">
+          <img src="../icons/group.png" alt="lessons">
+          <strong>30+</strong>
+          <p>Уроков</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="tariffs" id="tariffs">
+    <div class="section_container">
+      <h2 class="section_title">Выберите свой тариф</h2>
+
+      <div class="tariffs_cards">
+
+        <div class="tariff_free" id="free">
+          <h3>Free</h3>
+          <p class="tariff_price">Бесплатно</p>
+          <p class="tariff_desc">База + 3 урока</p>
+          <button class="tariff_button" id="btnFree">Выбрать</button>
+        </div>
+
+        <div class="tariff_pro" id="pro">
+          <div class="tariff_badge">Популярный</div>
+
+          <div class="pro_top">
+            <h3>Pro</h3>
+            <p class="pro_price">590₴ <span>/ месяц</span></p>
+          </div>
+
+          <div class="pro_bottom">
+            <p class="tariff_desc">Полный доступ + задания</p>
+            <button class="tariff_button" id="btnPro">Выбрать</button>
+          </div>
+        </div>
+
+        <div class="tariff_premium" id="premium">
+          <h3>Premium</h3>
+          <p class="tariff_price">990₴ <span>/ месяц</span></p>
+          <p class="tariff_desc">Pro + Личная проверка</p>
+          <button class="tariff_button_orange" id="btnPremium">Выбрать</button>
+        </div>
+
+      </div>
+
+      <p class="tariff_selected" id="vibralText">Вы выбрали: Pro</p>
+      <button class="tariff_order_button" id="orderBtn">Оформить Pro</button>
+
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer_container">
+
+      <div class="footer_left">
+        <div class="footer_logo">
+          <img src="../icons/logo.png" alt="logo">
+          <span>Лого</span>
+        </div>
+        <p class="footer_last">© 2024 Pro. Все права защищены.</p>
+      </div>
+
+      <div class="footer_links">
+        <div class="footer_cool">
+          <h4>О компании</h4>
+          <a href="#about">О нас</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#tariffs">Тарифы</a>
+        </div>
+
+        <div class="footer_cool">
+          <h4>Проекты</h4>
+          <a href="#advantage">Преимущества</a>
+          <a href="#tariffs">Тарифы</a>
+          <a href="#">Поддержка</a>
+        </div>
+
+        <div class="footer_cool">
+          <h4>Документы</h4>
+          <a href="#">Пользовательское соглашение</a>
+          <a href="#">Политика конфиденциальности</a>
+        </div>
+      </div>
+
+      <div class="footer_social">
+        <a href="#"><img src="../icons/free-icon-facebook-2504903.png" alt="Facebook"></a>
+        <a href="#"><img src="../icons/free-icon-twitter-3256013.png" alt="Twitter"></a>
+        <a href="#"><img src="../icons/free-icon-instagram-15713420.png" alt="Instagram"></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="./project.js"></script>
+</body>
+
+</html>
